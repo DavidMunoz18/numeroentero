@@ -2,8 +2,17 @@
 
 namespace numeroentero.Controladores
 {
+    /// <summary>
+    /// clase principal de la aplicación
+    /// 241023 - dmp
+    /// </summary>
     class program
     {
+        /// <summary>
+        /// Metodo de entrada y salida de la aplicación
+        /// 241023 - dmp
+        /// </summary>
+        /// <param name="args"></param>
         static void main(string[] args)
         {
             MenuInterfaz menu = new MenuImplementacion();
@@ -18,7 +27,6 @@ namespace numeroentero.Controladores
                 opcionIntroducida = menu.mostrarMenuYSeleccion();
                 switch (opcionIntroducida)
                 {
-                    
                     case 0:
                         break;
                         cerrarMenu=true;
